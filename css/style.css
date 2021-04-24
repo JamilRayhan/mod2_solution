@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     font-family: Aileron; 
     margin-bottom: 40px;
-    font-size:50px;
+    font-size:200%;
 }
 * {
   box-sizing: border-box;
@@ -25,6 +25,7 @@ h2{
 	border: 1px solid black;
   width: 30%;
   height: 10%;
+  display: check;
   margin-right: 25px;
   margin-left: auto;
   margin-bottom: 0;
@@ -36,6 +37,7 @@ h2{
   clear: left;
   position: relative;
   overflow: hidden;
+
 }
 .a{
 	background-color: #ff3b00;
