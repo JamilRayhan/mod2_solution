@@ -44,6 +44,9 @@ h2{
   clear: both;
 
 }
+.co{
+	background-color: aquamarine;
+}
 
 .a{
 	background-color: #ff3b00;
@@ -52,16 +55,10 @@ h2{
 	background-color: #ff00c8;
 }
 
-.color{
-	background-color: aquamarine;
-}
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
