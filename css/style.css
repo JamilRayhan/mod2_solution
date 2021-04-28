@@ -1,68 +1,52 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.row{
-	text-align: center;
-	display: block;
+
 }
 h1 {
     text-align: center;
     font-family: Aileron; 
     margin-top: 40px;
     margin-bottom: 40px;
-    font-size:200%;
+    font-size:300%;
 }
-
+h2 {
+    float: right;
+    text-align: center;
+    font-family: Aileron; 
+    font-size:200%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0px;
+    
+}
+.h2div{
+  overflow: hidden;
+}
+.a{
+  background-color: chartreuse;
+}
+.b{
+  background-color: aquamarine;
+}
+.c{
+  background-color: orange;
+}
 p {
-  border: 1px solid black;
-  background-color: #999999;
-  width: 90%;
-  height: 200px;
-  margin-right: 25px;
-  margin-left: auto;
-  margin-top: 0;
-  margin-bottom: 25px;
+  
   padding:10px;
   font-family: Aileron;
   text-align: justify;
-
 }
-h2{	
-	border: 1px solid black;
-  margin-right: 25px;
-  margin-left: auto;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: Aileron;
-  text-align: right;
-  float: right;
-  overflow: hidden;
-  clear: both;
-
+.main{
+  border: 1px solid black;  
+  background-color: #999999;
+  margin-top: 25px;
 }
-.co{
-	background-color: aquamarine;
-}
-
-.a{
-	background-color: #ff3b00;
-}
-.b{
-	background-color: #ff00c8;
-}
-
-.row {
-  width: 100%;
-}
-
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    /*border: 1px solid green;*/
+    border: 1px solid black;
+    width: 90%;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -102,11 +86,10 @@ h2{
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    /*border: 1px solid green;*/
+    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -148,8 +131,7 @@ h2{
 @media (min-width: 300px) and (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-sm-1 {
     width: 8.33%;
